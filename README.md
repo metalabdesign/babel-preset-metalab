@@ -1,13 +1,20 @@
 # babel-preset-metalab
 
-Preconfigured babel settings for MetaLab.
+Optimal reconfigured babel settings. Includes optional compatibility presets for targeting potato browsers.
 
 `$ npm install @metalab/babel-preset-metalab`
 
-
-Add to `.babelrc`:
+Example usage in `.babelrc`:
 ```json
 {
-  "presets": ["babel-preset-metalab"]
+  "presets": [
+    "metalab",
+    "metalab/compatibility"
+  ],
+  "env": {
+    "development": {
+      "sourceMaps": true
+    }
+  }
 }
 ```
