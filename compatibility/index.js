@@ -1,16 +1,18 @@
 module.exports = {
   plugins: [
+    // Object assign polyfill
+    require("babel-plugin-transform-object-assign"),
 
-    // http://babeljs.io/docs/plugins/transform-es3-member-expression-literals/
-    "transform-es3-member-expression-literals",
+    // Turn member expression reserved word properties into literals.
+    require("babel-plugin-transform-es3-member-expression-literals"),
 
-    // http://babeljs.io/docs/plugins/transform-es3-property-literals
-    "transform-es3-property-literals",
+    // Turn reserved word property keys into literals.
+    require("babel-plugin-transform-es3-property-literals"),
 
-    // http://babeljs.io/docs/plugins/transform-jscript/
-    "transform-jscript",
+    // Transform named function expressions into function declarations.
+    require("babel-plugin-transform-jscript"),
 
-    // http://babeljs.io/docs/plugins/transform-undefined-to-void/
-    "transform-undefined-to-void",
+    // Transform `undefined` into `void 0`.
+    require("babel-plugin-transform-undefined-to-void"),
   ],
 };
