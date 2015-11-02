@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     // React
-    require("babel-plugin-transform-react-jsx"),
+    [require("babel-plugin-transform-react-jsx"), { pragma: 'createElement' }],
     require("babel-plugin-transform-flow-strip-types"),
     require("babel-plugin-syntax-flow"),
     require("babel-plugin-syntax-jsx"),
