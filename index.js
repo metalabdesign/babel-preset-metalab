@@ -6,6 +6,10 @@ module.exports = {
     require("babel-plugin-syntax-flow"),
     require("babel-plugin-syntax-jsx"),
 
+    // Class Properties
+    require("babel-plugin-syntax-class-properties"),
+    require("babel-plugin-transform-class-properties"),
+
     // ES2015
     require("babel-plugin-transform-es2015-template-literals"),
     require("babel-plugin-transform-es2015-literals"),
@@ -34,10 +38,6 @@ module.exports = {
 
     // Trailing function commas
     require("babel-plugin-syntax-trailing-function-commas"),
-
-    // Class Properties
-    require("babel-plugin-syntax-class-properties"),
-    require("babel-plugin-transform-class-properties"),
 
     // Function bind syntax
     require("babel-plugin-syntax-function-bind"),
