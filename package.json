@@ -9,6 +9,9 @@
     "babel-preset"
   ],
   "repository": "metalabdesign/babel-preset-metalab",
+  "scripts": {
+    "test": "./test/test.sh"
+  },
   "dependencies": {
     "babel-plugin-syntax-class-properties": "^6.0.14",
     "babel-plugin-syntax-flow": "^6.0.14",
@@ -48,5 +51,8 @@
     "babel-plugin-transform-react-jsx": "^6.0.14",
     "babel-plugin-transform-regenerator": "^6.0.14",
     "babel-plugin-transform-undefined-to-void": "^6.0.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.14"
   }
 }
