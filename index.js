@@ -1,4 +1,13 @@
 module.exports = {
+  env: {
+    test: {
+      plugins: [
+        [require("babel-plugin-transform-adana"), {
+          "test": 'src/**/*.js'
+        }]
+      ]
+    }
+  },
   plugins: [
     // React
     [require("babel-plugin-transform-react-jsx"), { pragma: 'createElement' }],
