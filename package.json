@@ -8,7 +8,7 @@
     "babel",
     "babel-preset"
   ],
-  "repository": "nealgranger/babel-preset-metalab",
+  "repository": "metalabdesign/babel-preset-metalab",
   "dependencies": {
     "babel-plugin-syntax-class-properties": "^6.0.14",
     "babel-plugin-syntax-flow": "^6.0.14",
