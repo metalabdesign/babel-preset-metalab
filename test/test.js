@@ -2,6 +2,7 @@
 const f = (
   a : number,
   b : number
-) : number => a + b;
+) => a + b;
 
-console.log(f(1,2));
+/* eslint no-console: 0 */
+console.log(f(1, 2));

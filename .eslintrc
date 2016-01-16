@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "metalab/legacy",
+    "metalab/node"
+  ]
+}
