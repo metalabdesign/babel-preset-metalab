@@ -4,7 +4,7 @@ module.exports = {
     test: {
       plugins: [
         [ require('babel-plugin-transform-adana'), {
-          test: 'src/**/*.js',
+          ignore: 'test/**/*',
         } ],
       ],
     },
