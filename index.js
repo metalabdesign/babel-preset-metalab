@@ -58,9 +58,6 @@ module.exports = {
     // Object assign polyfill
     require('babel-plugin-transform-object-assign'),
 
-    // Inline `process.env` references
-    require('babel-plugin-transform-node-env-inline'),
-
     // Transfrom modules to commonjs
     require('babel-plugin-transform-es2015-modules-commonjs'),
   ],
