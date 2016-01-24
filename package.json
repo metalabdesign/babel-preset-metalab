@@ -48,7 +48,6 @@
     "babel-plugin-transform-function-bind": "^6.3.13",
     "babel-plugin-transform-jscript": "^6.3.13",
     "babel-plugin-transform-member-expression-literals": "^6.3.13",
-    "babel-plugin-transform-node-env-inline": "^6.3.13",
     "babel-plugin-transform-object-assign": "^6.3.13",
     "babel-plugin-transform-object-rest-spread": "^6.3.13",
     "babel-plugin-transform-react-jsx": "^6.3.13",
