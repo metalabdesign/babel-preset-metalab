@@ -14,9 +14,14 @@ module.exports = {
     [ require('babel-plugin-transform-react-jsx'), {
       pragma: 'createElement',
     } ],
+    require('babel-plugin-syntax-jsx'),
+
+    // Flow
     require('babel-plugin-transform-flow-strip-types'),
     require('babel-plugin-syntax-flow'),
-    require('babel-plugin-syntax-jsx'),
+
+    // Export extensions
+    require('babel-plugin-syntax-export-extensions'),
 
     // Class Properties
     require('babel-plugin-syntax-class-properties'),

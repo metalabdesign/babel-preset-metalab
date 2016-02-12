@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "babel-plugin-syntax-class-properties": "^6.3.13",
+    "babel-plugin-syntax-export-extensions": "^6.5.0",
     "babel-plugin-syntax-flow": "^6.3.13",
     "babel-plugin-syntax-function-bind": "^6.3.13",
     "babel-plugin-syntax-jsx": "^6.3.13",
