@@ -1,7 +1,6 @@
-{
-  "extends": [
-    "metalab/legacy",
-    "metalab/node",
-    "metalab/react"
-  ]
-}
+extends:
+  - metalab
+rules:
+  import/no-commonjs: 0
+env:
+  node: true
