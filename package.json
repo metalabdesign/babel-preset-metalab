@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-metalab",
   "author": "Neal Granger <neal@nealg.com>",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "license": "CC0-1.0",
   "main": "index.js",
   "keywords": [
